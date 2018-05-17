@@ -8,6 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="103*"/>
+        </Grid.RowDefinitions>
+        <Canvas HorizontalAlignment="Left" Height="1050" Margin="15,15,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="1880"/>
     </Grid>
 </Page>
